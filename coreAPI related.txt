@@ -1,0 +1,95 @@
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio
+http://www.binaryintellect.net/articles/9db02aa1-c193-421e-94d0-926e440ed297.aspx
+https://www.syncfusion.com/blogs/post/build-crud-application-with-asp-net-core-entity-framework-visual-studio-2019.aspx
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types
+https://stackoverflow.com/questions/6229504/inconsistent-accessibility-parameter-type-is-less-accessible-than-method
+
+
+https://localhost:44302/weatherforecast
+
+https://localhost:44302/api/Products
+
+Get: https://localhost:44302/api/Products/LoadWelcomeMessage
+
+Post:
+{
+	"ProductId":2,
+	"ProductName":"Headphone",
+	"ProductPrice":"INR 500"
+}
+
+Put: https://localhost:44302/api/Products/1
+{
+	"ProductId":1,
+	"ProductName":"Moto X4",
+	"ProductPrice":"INR 22000"
+}
+
+Delete: https://localhost:44302/api/Products/0
+
+https://localhost:44302/api/Customers
+
+Post:
+{
+	"id":2,
+	"email":"stevew@gmail.com",
+	"name":"Steve Wough",
+	"phone": "3325654451"
+}
+
+
+https://localhost:44302/api/ProductsDb
+
+Get:
+https://localhost:44302/api/ProductsDb/1
+
+Post: https://localhost:44302/api/ProductsDb
+{
+	"ProductName":"Sony Headphone",
+	"ProductPrice":500
+}
+
+Put:  https://localhost:44302/api/ProductsDb/3
+{
+	"ProductId":3,
+	"ProductName":"Sony Headphone Bluetooth",
+	"ProductPrice":1500
+}
+
+Delete: https://localhost:44302/api/ProductsDb/3
+
+sorting: https://localhost:44302/api/ProductsDb?sortPrice=desc
+
+ALTER TABLE Products ALTER COLUMN ProductPrice decimal(25,2);
+
+paging: https://localhost:44302/api/ProductsDb?pageNumber=1&pageSize=2
+	https://localhost:44302/api/ProductsDb?pageNumber=&pageSize=
+
+searching: https://localhost:44302/api/ProductsDb?searchProduct=Moto X4
+
+versioning: https://localhost:44302/api/Products?api-version=1.0
+	    https://localhost:44302/api/Products?api-version=2.0&searchProduct=Moto X4
+
+	    https://localhost:44302/api/v1/Products
+	    
+	    https://localhost:44302/api/v2/Products/
+	    https://localhost:44302/api/v2/Products/2
+	    https://localhost:44302/api/v2.0/Products?searchProduct=Moto X4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
